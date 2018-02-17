@@ -22,7 +22,7 @@ overhead = 0.2
 addtlbal = 0
 #essentially the following algorithm applies
 # #gpu * ( btcpergpuperday * btc) - (#gpu * (powerpergpuperday))
-#Aadding comments
+#this is a new change
 for x in range(1,(totalyear*365)):
     addtlbal = (numgpu * (usdpergpuperday)) - (numgpu * powerpergpuperday)
     balance = balance + (addtlbal * (1 - overhead))
